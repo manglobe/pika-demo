@@ -1,15 +1,18 @@
 {
-  "name": "echarts-react",
+  "name": "pika-demo",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:manglobe/echarts-react.git",
+  "repository": "git@github.com:manglobe/pika-demo.git",
   "author": "manglobe <manglobegit@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "echarts": "^4.2.1",
     "express": "^4.16.4",
-    "preact": "latest",
-    "htm": "latest"
+    "preact": "latest"
+  },
+  "@pika/web": {
+    "webDependencies": [
+      "preact"
+    ]
   },
   "devDependencies": {
     "@pika/web": "^0.4.1"
