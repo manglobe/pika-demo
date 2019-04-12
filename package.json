@@ -1,0 +1,17 @@
+{
+  "name": "echarts-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:manglobe/echarts-react.git",
+  "author": "manglobe <manglobegit@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "echarts": "^4.2.1",
+    "express": "^4.16.4",
+    "preact": "latest",
+    "htm": "latest"
+  },
+  "devDependencies": {
+    "@pika/web": "^0.4.1"
+  }
+}
